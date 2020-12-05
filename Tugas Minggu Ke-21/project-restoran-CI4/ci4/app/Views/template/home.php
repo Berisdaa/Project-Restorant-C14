@@ -27,7 +27,7 @@
                                 <li class="nav-item mt-2 ml-4"> Pelanggan : <?= session()->get('email') ?> </li>
 
                                 <li class="nav-item ml-2">
-                                    <a href="<?= base_url('/front/KeranjangBelanja/index/') ?>"><img style="width: 40px;" src="<?= base_url('/icon/shopping-basket.svg') ?>"></a>
+                                    <a href="<?= base_url('/front/KeranjangBelanja/') ?>"><img style="width: 40px;" src="<?= base_url('/icon/shopping-basket.svg') ?>"></a>
                                 </li>
 
                                 <li class="nav-item  ml-3"><a class="btn btn-light" href="<?= base_url('/front/Homepage/histori/') ?>"> Histori </a></li>
